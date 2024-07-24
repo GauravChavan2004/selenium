@@ -1,0 +1,257 @@
+{
+  "id": "7841601b-19bc-447c-8cfc-26d5f7ca40f6",
+  "version": "2.0",
+  "name": "p1",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "6c018c08-7f08-419a-b024-ec5465002caf",
+    "name": "t1",
+    "commands": [{
+      "id": "7c861fae-d66c-499a-b3b3-59ba7f666e5c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f15d7e2e-d76a-4397-94d9-ba3847787b76",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d88fed48-7cdc-4c16-8b3a-d93ec2fbb758",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac855b57-3f2b-407d-a022-1c9af782b0f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#vTtioc > .wM6W7d > span",
+      "targets": [
+        ["css=#vTtioc > .wM6W7d > span", "css:finder"],
+        ["xpath=//div[@id='vTtioc']/div/span", "xpath:idRelative"],
+        ["xpath=//li[6]/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'online bus booking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55f4deb7-3f7e-4655-87cc-bcf223cb1e81",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(3) > .MjjYud:nth-child(1) .LC20lb:nth-child(2)",
+      "targets": [
+        ["css=div:nth-child(3) > .MjjYud:nth-child(1) .LC20lb:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='rso']/div[2]/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/span/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Bus Ticket Booking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69336883-d3b0-472f-8d83-c2d022d0d97c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fullWidth",
+      "targets": [
+        ["css=.fullWidth", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='SW']/div/div[2]/div[2]/div/section/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf0ab920-cb1c-40c1-bea3-1d0e92aeb06d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fullWidth",
+      "targets": [
+        ["css=.fullWidth", "css:finder"],
+        ["xpath=//input[@value='5462684621656']", "xpath:attributes"],
+        ["xpath=//div[@id='SW']/div/div[2]/div[2]/div/section/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "5462684621656"
+    }, {
+      "id": "c592a348-c8ac-4a69-8926-f3f5f7397582",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnContainer > .capText",
+      "targets": [
+        ["css=.btnContainer > .capText", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='SW']/div/div[2]/div[2]/div/section/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3bbea47-9631-486d-b17b-db6472d5d370",
+      "comment": "",
+      "command": "click",
+      "target": "css=.commonModal__close",
+      "targets": [
+        ["css=.commonModal__close", "css:finder"],
+        ["xpath=//div[@id='SW']/div/div[2]/div[2]/div/section/span", "xpath:idRelative"],
+        ["xpath=//section/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87e7c606-347e-4fa2-a83a-f93bb45c0922",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu_Trains .headerIconTextAlignment",
+      "targets": [
+        ["css=.menu_Trains .headerIconTextAlignment", "css:finder"],
+        ["xpath=//div[@id='SW']/div/div[2]/div/div/nav/ul/li[5]/span/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[5]/span/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "db105c39-bc30-4674-80f5-9a90e70ff5e5",
+    "name": "t2",
+    "commands": [{
+      "id": "d449db65-18a6-4b11-869a-62bdcd7f3145",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19f416d2-5c6a-4597-b3ef-ead63970ebb8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e43f8aa8-d6e3-4280-9f10-c6c16df0d604",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fde6a05e-91bc-4c51-a773-6db44c883eaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mdzGzd > .wM6W7d > span",
+      "targets": [
+        ["css=#mdzGzd > .wM6W7d > span", "css:finder"],
+        ["xpath=//div[@id='mdzGzd']/div/span", "xpath:idRelative"],
+        ["xpath=//li[8]/div/div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'msrtc online booking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99929c2d-7e9a-4147-9831-5ea1bf3cdb03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MjjYud:nth-child(1) .N54PNb .LC20lb",
+      "targets": [
+        ["css=.MjjYud:nth-child(1) .N54PNb .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Welcome to MSRTC :: Maharashtra State Road Transport ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6c2ee9c-41c1-4a0d-8290-f7cd7b77fb0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.homecarousel > .active > .d-block",
+      "targets": [
+        ["css=.homecarousel > .active > .d-block", "css:finder"],
+        ["xpath=//img[@title='Banner tooltip 2']", "xpath:img"],
+        ["xpath=//div[@id='homecarouselExampleIndicators']/div[3]/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cc87228-3186-42cd-a0a5-1169c5f2ea97",
+      "comment": "",
+      "command": "click",
+      "target": "id=ContentPlaceHolder1_txtFromcheckIn",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtFromcheckIn", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtFromcheckIn", "name"],
+        ["css=#ContentPlaceHolder1_txtFromcheckIn", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtFromcheckIn']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_updHome']/div[2]/div/div/div/div[2]/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39846230-853b-4e22-95dc-b5d7f63fc523",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtFromcheckIn",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtFromcheckIn", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtFromcheckIn", "name"],
+        ["css=#ContentPlaceHolder1_txtFromcheckIn", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtFromcheckIn']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_updHome']/div[2]/div/div/div/div[2]/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ASARALI"
+    }, {
+      "id": "592308a5-be2f-4876-8fe7-ac0903ec9141",
+      "comment": "",
+      "command": "type",
+      "target": "id=ContentPlaceHolder1_txtFromcheckIn",
+      "targets": [
+        ["id=ContentPlaceHolder1_txtFromcheckIn", "id"],
+        ["name=ctl00$ContentPlaceHolder1$txtFromcheckIn", "name"],
+        ["css=#ContentPlaceHolder1_txtFromcheckIn", "css:finder"],
+        ["xpath=//input[@id='ContentPlaceHolder1_txtFromcheckIn']", "xpath:attributes"],
+        ["xpath=//div[@id='ContentPlaceHolder1_updHome']/div[2]/div/div/div/div[2]/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ASARALI"
+    }, {
+      "id": "31c04e09-023b-4ef5-b87f-af5dd25eafb7",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.col-6:nth-child(1)",
+      "targets": [
+        ["css=.col-6:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='ContentPlaceHolder1_updHome']/div[2]/div/div/div/div[2]/div/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "67a89392-82a2-4d96-8cc0-c379c6499aa7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "99db6c1e-a179-456d-87e1-397458e21294",
+    "name": "s1",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6c018c08-7f08-419a-b024-ec5465002caf", "db105c39-bc30-4674-80f5-9a90e70ff5e5"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

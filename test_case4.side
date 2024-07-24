@@ -1,0 +1,600 @@
+{
+  "id": "a759f1f3-72ba-4deb-beab-e494c9fa8571",
+  "version": "3.0",
+  "name": "practical_21",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "ae00db99-8047-4886-8230-10d214ee03a5",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [
+        "d2b277c9-ca43-438e-955a-573b0f985939"
+      ],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "d2b277c9-ca43-438e-955a-573b0f985939",
+      "name": "New Test",
+      "commands": [
+        {
+          "id": "e2889384-5d98-4279-8efb-edacd8adb03b",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "1fb05ceb-79f6-434f-82df-c8312e649fec",
+      "name": "t2",
+      "commands": [
+        {
+          "id": "70f1b5ba-a710-4aaf-9649-417d6be25d2f",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=APjFqb",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "57864f93-96ec-42a0-b3a4-006e0fe50eac",
+          "targets": [
+            [
+              "id=APjFqb",
+              "id"
+            ],
+            [
+              "name=q",
+              "name"
+            ],
+            [
+              "css=[data-ved=\"0ahUKEwi6kdbF0KqHAxWt1jgGHWDxAL8Q39UDCAQ\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#APjFqb",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='APjFqb'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=#gLuoSb > .wM6W7d > span",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "41bf0bf8-3147-4be4-87fb-1209449fa467",
+          "targets": [
+            [
+              "css=#gLuoSb > .wM6W7d > span",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='gLuoSb']/div/span)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//span[contains(.,'gen z boss meme tiktok')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,345)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "94832a04-be71-4bf1-8a3d-505ffaaf19d0",
+          "targets": [
+            [
+              "window.scrollTo(0,345)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,1401)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c0d4daff-28da-43e8-bee1-de00f6041799",
+          "targets": [
+            [
+              "window.scrollTo(0,1401)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.hlcw0c:nth-child(6) .LC20lb:nth-child(2)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "974b97ac-f404-4f8d-b82b-2675fc09ed37",
+          "targets": [
+            [
+              "css=.hlcw0c:nth-child(6) .LC20lb:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='rso']/div[6]/div/div/div/div/div/div/span/a/h3)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,1037)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "cc82f2a1-8fbb-4090-9723-3ab0f0f5e206",
+          "targets": [
+            [
+              "window.scrollTo(0,1037)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,1706)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "2090b243-917d-4b84-a27f-ef9e37341c2d",
+          "targets": [
+            [
+              "window.scrollTo(0,1706)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,3000)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "7b9356d5-3d9f-4cb6-9265-a1745e534600",
+          "targets": [
+            [
+              "window.scrollTo(0,3000)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,4400)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "85121b87-8b11-4ceb-a5eb-cd6f2eac0b17",
+          "targets": [
+            [
+              "window.scrollTo(0,4400)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,5200)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "8b32df3a-8644-410b-bdf7-d1e83998fbcc",
+          "targets": [
+            [
+              "window.scrollTo(0,5200)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,6000)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "205c52db-8f8b-4d59-ad26-06b27f445911",
+          "targets": [
+            [
+              "window.scrollTo(0,6000)",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "87fc5069-8ab0-4ce9-9029-33a7e93ea168",
+      "name": "t3",
+      "commands": [
+        {
+          "id": "5ae41f97-39b4-4880-b559-fd25bfaede07",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=APjFqb",
+          "value": "car",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f79d8340-5e6e-4ba9-bef3-821151f7a68f",
+          "targets": [
+            [
+              "id=APjFqb",
+              "id"
+            ],
+            [
+              "name=q",
+              "name"
+            ],
+            [
+              "css=[data-ved=\"0ahUKEwibwrz30KqHAxVBcWwGHTV2BqkQ39UDCAQ\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#APjFqb",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='APjFqb'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.sbhl > .eIPGRd",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "7fcee7a1-84b3-495c-bffa-e2660a654d50",
+          "targets": [
+            [
+              "css=.sbhl > .eIPGRd",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='Alh6id']/div/div/ul/li[6]/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "mouseOver",
+          "target": "css=.CCgQ5",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e45a8e43-16eb-4af2-9544-7e510688b3c3",
+          "targets": [
+            [
+              "css=.CCgQ5",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='tads']/div/div/div/div/div/a/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.CCgQ5",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "581fd45b-24b3-4791-b9cf-6c1ef020fdd8",
+          "targets": [
+            [
+              "css=.CCgQ5",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='tads']/div/div/div/div/div/a/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,299)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a2d8aa4f-8cbb-4013-bf00-6cf226bb82cb",
+          "targets": [
+            [
+              "window.scrollTo(0,299)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,1000)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "9608a86c-c338-40f5-bd64-a01759623ac4",
+          "targets": [
+            [
+              "window.scrollTo(0,1000)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,2216)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "35648aed-9dd8-4bc2-8341-9cedc89d5bb2",
+          "targets": [
+            [
+              "window.scrollTo(0,2216)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.slick-current .\\_1FdBS img",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bdc34687-f00a-49b9-96e8-78b062d8ba84",
+          "targets": [
+            [
+              "css=.slick-current .\\_1FdBS img",
+              "css:finder"
+            ],
+            [
+              "xpath=(//img[@alt='customer'])[1]",
+              "xpath:img"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.slick-current .\\_1FdBS img",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "26d3e252-9915-471a-83e5-a58ee94e3bfc",
+          "targets": [
+            [
+              "css=.slick-current .\\_1FdBS img",
+              "css:finder"
+            ],
+            [
+              "xpath=(//img[@alt='customer'])[1]",
+              "xpath:img"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cb44a420-04cb-45dc-af5c-8573aba3e78d",
+      "name": "t4",
+      "commands": [
+        {
+          "id": "e3c38e41-76f1-4214-bfe9-8eedf3945f08",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        },
+        {
+          "command": "type",
+          "target": "id=APjFqb",
+          "value": "kankavl ",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "347e21dc-ce93-4d75-bbc5-726db0f86ed1",
+          "targets": [
+            [
+              "id=APjFqb",
+              "id"
+            ],
+            [
+              "name=q",
+              "name"
+            ],
+            [
+              "css=[data-ved=\"0ahUKEwjkuLXb0aqHAxVD8DgGHZ7rCXsQ39UDCAQ\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#APjFqb",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='APjFqb'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=#ERWdKc > .wM6W7d > span",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "dd1c1e20-ef12-4832-b842-3bf58d02974b",
+          "targets": [
+            [
+              "css=#ERWdKc > .wM6W7d > span",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='ERWdKc']/div/span)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//span[contains(.,'Kankavli Bus Stand')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.TzHB6b:nth-child(1) .LC20lb:nth-child(2)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "4b89c0f3-5164-4b81-a6f1-a855870188eb",
+          "targets": [
+            [
+              "css=.TzHB6b:nth-child(1) .LC20lb:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='kp-wp-tab-overview']/div/div/div/div/div/div/div/div/div/span/a/h3)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//h3[contains(.,'Kankavli Bus Stand Time Table | MSRTC | Ticket Price')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,127)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "0585a2c3-b031-4844-8629-03c59fb58d25",
+          "targets": [
+            [
+              "window.scrollTo(0,127)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,576)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5c77e400-e7dc-4b74-971f-04b71bdee270",
+          "targets": [
+            [
+              "window.scrollTo(0,576)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "runScript",
+          "target": "window.scrollTo(0,913)",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "46069851-1892-4a64-a93e-f7c819635dac",
+          "targets": [
+            [
+              "window.scrollTo(0,913)",
+              ""
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.row-2 > .column-1",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "96c006c2-a3e3-41a0-980a-a141924e6a45",
+          "targets": [
+            [
+              "css=.row-2 > .column-1",
+              "css:finder"
+            ],
+            [
+              "xpath=(//table[@id='tablepress-161']/tbody/tr/td)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//td[contains(.,'Akkalkot')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7392d875-e52c-4437-81d4-7d59a3f990e8",
+      "name": "t1",
+      "commands": [
+        {
+          "id": "384d1962-7293-4b86-a0c3-c31939359b57",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
